@@ -16,3 +16,45 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+}
+
+#startButton {
+  margin-left: -20px;
+  height: 50px;
+  width: 100px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+#stopButton {
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.timer {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
